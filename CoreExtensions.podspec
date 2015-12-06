@@ -13,4 +13,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "CoreExtensions", "CoreExtensions/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
+
+  s.platform = :osx, '10.10'
 end
